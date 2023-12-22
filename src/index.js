@@ -18,7 +18,7 @@ client.on("ready", function(c) {
 
 client.on("messageCreate", function(msg) {
     console.log(`📶 ${msg.content}📶 sent`);
-    if(msg.content == "you are gay") {
+    if(msg.content == "Forgot I made this public") {
         msg.reply("No u");
     };
 });
